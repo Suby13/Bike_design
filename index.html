@@ -13,6 +13,9 @@
               colors: {
                 clifford: '#da373d',
                 bike_primary:'#E76F51',
+                bike_primary_bg:'rgba(231, 111, 81, 0.10)',
+
+
               }
             }
           }
@@ -20,7 +23,7 @@
       </script>
 </head>
 <body>
-    <header class="md:container md:max-auto">
+    <header class="md:container md:max-auto lg:px-20 ">
          <!-- Navbar Start -->
          <div class="navbar bg-base-100">
             <div class="flex-1">
@@ -67,7 +70,7 @@
           </div>
 
           <!-- Slider Start -->
-          <div class="carousel w-full">
+          <div class="carousel w-full  bg-bike_primary_bg">
             <div id="slide1" class="carousel-item relative w-full">
               <div class="flex flex-col-reverse lg:flex-row p-24">
                 <div class=" space-y-8 flex-1">
@@ -149,6 +152,84 @@
               </div>
             </div>
           </div>
+          <!-- bike container -->
+        <main class="md:container mx-auto lg:px-24">
+          <section >
+            <div class="text-center p-12">
+              <h1 class="font-bold text-5xl  ">Fetured Bikes In This Year</h1>
+              <p class=" text-[#E76F51]">Best bike collection</p>
+
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:px-10">
+              <div>
+                <img src="images/others/feature-bike.png" alt="">
+              </div>
+              <div>
+                <img src="images/others/feature-bike.png" alt="">
+              </div>
+              <div>
+                <img src="images/others/feature-bike.png" alt="">
+              </div>
+              
+             
+            </div>
+            </section>
+           <section class="my-24 ">
+            <h3 class="font-bold text-center text-5xl">latest News</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+              <div class="card bg-base-100  shadow-xl">
+                <figure>
+                  <img
+                    src="images/others/latest1.png"
+                    alt="Bike" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Lacus, fermentum amet 
+                    faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions ">
+                    <button class="btn bg-bike_primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card bg-base-100  shadow-xl">
+                <figure>
+                  <img
+                    src="images/others/latest2.png"
+                    alt="Bike" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Lacus, fermentum amet 
+                    faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions ">
+                    <button class="btn bg-bike_primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100  shadow-xl">
+                <figure>
+                  <img
+                    src="images/others/latest3.png"
+                    alt="Bike" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Lacus, fermentum amet 
+                    faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions ">
+                    <button class="btn bg-bike_primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+           </section>
 </header>
 </body>
 </html>
